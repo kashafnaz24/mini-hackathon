@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini hackathon</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="navbar">
+        <img src="./asset/logo.PNG" alt="logo" width="200px" height="80px">
+        <input  type="text" placeholder="search" id="searchbar">
+        <button id="hiring-btn">hiring</button>
+        <button id="login">LOGIN/REGISTER <i class="bi bi-arrow-right"></i></button>
+    </div>
+    <div id="main_text">
+    <h1 id="main-hadding">Thought,Ideas and Stories</h1>
+    <p id="main_para">A space where ipsum dolor sit amet consectetur adipisicing vel quo, consequuntur iste neque autem nisi repellendus  iusto optio ducimus animi dignissimos quos.</p>
+    </div>
+</header>
+<section>
+    <div id="main_section">
+    <div id="side-bar">
+        <h3>Blog Topics</h3>
+        <ul>
+            <li>Company</li>
+            <li>Design</li>
+            <li>Technology</li>
+            <li>Crypto</li>
+            <li>Artificial Technology</li>
+            <li>Work</li>
+        </ul>
+        <h3>Guid and Tool</h3>
+        <ul>
+            <li>Company</li>
+            <li>Design</li>
+            <li>Technology</li>
+            <li>Crypto</li>
+            <li>Artificial Technology</li>
+            <li>Work</li>
+        </ul>
+
+    </div>
+    <div id="post"> 
+        <div>
+        <h4>Trending Topics</h3>
+        <div id="Trending_Topics">
+        <button id="Topics">Design Thinking</button>
+        <button id="Topics">Technology</button>
+        <button id="Topics">web3</button>
+        <button id="Topics">programming</button>
+        <button id="Topics">AI</button>
+       </div>
+       <div id="userposts"></div>
+
+    </div>
+</section>
+<footer>
+    <form action="">
+        <label >Title</label>
+        <input id="title"  type="text">
+        <label >description</label>
+        <input id="description"type="text">
+        <button id="post">Post</button>
+    </form>
+    
+    <div id="usermeet">
+    <h5>Stay Up TO Update</h5>
+    <h2>Join Our NewsLetter</h2>
+    <input id="email" type="email" placeholder="Email" required />
+    <input id="password" type="password" placeholder="Password" required />
+    <button type="submit"  id="submit">submit</button>
+    <p>*you can unsubscribe any time</p>
+    </div>
+</footer>
+<script type="module" src="firebase.js"></script>
+<script type="module" src="app.js"></script>
+</body>
+</html>

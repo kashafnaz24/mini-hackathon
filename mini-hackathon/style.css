@@ -1,0 +1,122 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color:#fdf7f7
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px;   
+}
+#hiring-btn{
+    background-color:#1c5cff;
+    color: aliceblue;
+    width: 100px;
+    height: 40px;
+    border-color: #1c5cff;
+    border-radius: 10px;
+
+}
+#login{
+    background-color:#1c5cff;
+    color: aliceblue;
+    width: 200px;
+    height: 40px;
+    border-color: #1c5cff;
+    border-radius: 10px;
+
+}
+#searchbar{
+    width: 400px;
+    height: 30px;
+    border-color: gray;
+    border-radius: 30px;
+    font-size: large;
+    text-transform: capitalize;
+    text-align: center;
+}
+#main-hadding{
+    font-size: 60px;
+    margin-bottom: 0%;
+}
+#main_para{
+    color: gray;
+    font-size: 20px;
+  
+}
+#main_text{
+    padding: 40px;
+}
+#main_section{
+    display: flex;
+}
+#post{
+    padding: 30px;
+
+}
+h3{
+    color: #1c5cff;
+    text-align: center;
+}
+h4{
+    color: #1c5cff;
+    text-align: center;
+    font-size: 30px;
+}
+h5{
+    color: #1c5cff;
+    font-size: 20px;
+    margin-bottom: 0%;
+}
+h2{
+    font-size: 40px;
+    font-family: serif;
+}
+ul{
+    list-style: none;
+}
+#side-bar{
+    padding: 60px;
+    font-size: large;
+}
+#Topics{
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+    margin: 10px;
+}
+input {
+    width: 300px;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#submit{
+    background-color: #007bff;
+    color: white;
+    padding: 12px 0;
+    border: none;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#submit:hover {
+    background-color: #0056b3;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+#usermeet{
+    padding: 30px;
+}
+
+
